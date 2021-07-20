@@ -964,8 +964,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
 
-  transition: background-color 250ms var(--transition-timing-function), 
-  box-shadow 250ms var(--transition-timing-function);
+  transition: background-color 250ms var(--transition-timing-function);
 }
 
 .modal-form-btn:focus,
