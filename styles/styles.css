@@ -810,8 +810,11 @@ body {
 
 /*======== modal form ========*/
 
-.modal-form {
+.modal {
   padding: 40px 40px;
+}
+
+.modal-form {
   display: flex;
   flex-direction: column;
 }
