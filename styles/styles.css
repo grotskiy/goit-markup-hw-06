@@ -923,7 +923,7 @@ body {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  background-image: url(../images/sprite.svg#icon-check);
+  background-image: url(../images/icons/check.svg);
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
