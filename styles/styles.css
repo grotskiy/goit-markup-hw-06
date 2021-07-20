@@ -894,6 +894,8 @@ body {
   fill: var(--accent-color-logo);
 }
 
+/*======== modal message ========*/
+
 .modal-form-message {
   margin-top: 5px;
   margin-bottom: 20px;
@@ -917,17 +919,15 @@ body {
 
 .modal-form-message:hover,
 .modal-form-message:focus {
-  outline: none;
   border-color: var(--accent-color-logo);
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  background-color: var(--accent-color-logo);
-  background-image: url(../images/icons/check.svg);
+  background-image: url(../images/sprite.svg#icon-check);
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
-  outline: 2px solid rgba(0, 0, 255, 0.5);
+  
 }
 
 .modal-form-checkbox-label {
@@ -941,9 +941,9 @@ body {
   display: block;
   width: 16px;
   height: 15px;
-  border: 1px solid #2196F3;
   cursor: pointer;
-  background-image: url(../images/icons/check.svg);
+  border: 1px solid #212121;
+  border-radius: 2px;
 } 
 
 .modal-form-btn {
