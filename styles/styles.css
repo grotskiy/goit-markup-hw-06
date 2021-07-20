@@ -820,6 +820,7 @@ body {
 }
 
 .modal-desc {
+  margin-bottom: 12px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
@@ -841,6 +842,7 @@ body {
 
 .modal-form-input-wrapper {
   position: relative;
+  display: block;
   margin-top: 5px;
 }
 
@@ -850,6 +852,15 @@ body {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  cursor: pointer;
+
+  transition: border 250ms var(--transition-timing-function);
+}
+
+.modal-form-input:focus + .modal-form-icon,
+.modal-form-input:hover + .modal-form-icon {
+  border-color: var(--accent-color-logo);
+  fill: var(--accent-color-logo);
 }
 
 .modal-form-icon {
@@ -858,4 +869,5 @@ body {
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
+  fill: var(--accent-color-sec);
 }
