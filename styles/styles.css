@@ -997,7 +997,6 @@ body {
   position: absolute;
   width: 16px;
   height: 15px;
-  background-color: var(--accent-color-logo);
   border-radius: 2px;
 }
 
@@ -1011,6 +1010,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .modal-form-checkbox-label::before {
@@ -1024,10 +1024,8 @@ body {
   border-radius: 2px;
 } 
 
-.modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-
+.modal-form-checkbox:checked + .checkbox-icon {
   background-color: var(--accent-color-logo);
-  border-color: var(--accent-color-logo);
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
