@@ -809,6 +809,10 @@ body {
 }
 
 .subscription-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
@@ -987,7 +991,13 @@ body {
 .modal-form-checkbox {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
 
+.checkbox-icon {
+  width: 16px;
+  height: 15px;
+  background-color: var(--accent-color-logo);
+  border-radius: 2px;
 }
 
 .modal-form-checkbox-label {
@@ -1014,7 +1024,6 @@ body {
 } 
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  background-image: url(../images/icons/check.svg);
   background-color: var(--accent-color-logo);
   border-color: var(--accent-color-logo);
 }
