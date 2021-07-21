@@ -993,13 +993,6 @@ body {
   border-radius: 4px;
 }
 
-.checkbox-icon {
-  position: absolute;
-  width: 16px;
-  height: 15px;
-  border-radius: 2px;
-}
-
 .modal-form-checkbox-label {
   display: flex;
   align-items: center;
@@ -1024,12 +1017,19 @@ body {
   border-radius: 2px;
 } 
 
-.modal-form-checkbox:checked + .checkbox-icon {
+.modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-color: var(--accent-color-logo);
+  background-image: url(../images/icons/check.svg);
+  border: none;
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
   outline: 1px solid var(--accent-color-logo);
+}
+
+.modal-form-label-link {
+  color: var(--accent-color-logo);
+  transition: outline 250ms var(--transition-timing-function);
 }
 
 .modal-form-btn {
