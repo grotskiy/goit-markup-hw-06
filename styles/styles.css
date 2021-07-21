@@ -872,7 +872,6 @@ body {
 .modal-form-input:hover {
   outline: none;
   border-color: var(--accent-color-logo);
-
 }
 
 .modal-form-icon {
@@ -921,6 +920,12 @@ body {
 .modal-form-message:hover {
   outline: none;
   border-color: var(--accent-color-logo);
+}
+
+.modal-form-checkbox {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
 }
 
 .modal-form-checkbox-label {
