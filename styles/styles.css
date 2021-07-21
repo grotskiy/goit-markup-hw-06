@@ -726,6 +726,7 @@ body {
 
 .footer-social {
   padding-top: 12px;
+  margin-right: 93px;
 }
 
 .social-title {
@@ -770,6 +771,51 @@ body {
 .footer-social-list-icon {
   width: 20px;
   height: 20px;
+}
+
+/*======== footer-subscription ========*/
+
+.footer-subscription {
+  padding-top: 12px;
+}
+
+.subscription-form {
+
+}
+
+.subscription-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color-four);
+}
+
+.subscription-mail {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscription-btn {
+  width: 200px;
+  height: 50px;
+  background: var(--accent-color-logo);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.subscription-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: var(--accent-color-four);
 }
 
 /*======== modal ========*/
