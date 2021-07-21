@@ -994,6 +994,7 @@ body {
 }
 
 .checkbox-icon {
+  position: absolute;
   width: 16px;
   height: 15px;
   background-color: var(--accent-color-logo);
@@ -1024,6 +1025,7 @@ body {
 } 
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
+
   background-color: var(--accent-color-logo);
   border-color: var(--accent-color-logo);
 }
