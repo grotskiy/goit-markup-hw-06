@@ -1020,7 +1020,6 @@ body {
   background-color: var(--accent-color-logo);
   background-image: url(../images/icons/check.svg);
   border: none;
-  background-size: 16px 15px;
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
