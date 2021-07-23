@@ -659,7 +659,6 @@ body {
 
 .footer-main {
   display: block;
-  margin-right: 70px;
 }
 
 .footer-logo {
@@ -728,7 +727,7 @@ body {
 
 .footer-social {
   padding-top: 12px;
-  margin-right: 93px;
+  margin-left: 70px;
 }
 
 .social-title {
@@ -778,6 +777,7 @@ body {
 /*======== footer-subscription ========*/
 
 .footer-subscription {
+  margin-left: auto;
   padding-top: 12px;
 }
 
